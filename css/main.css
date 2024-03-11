@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+header {
+  background-image: url();
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  grid-column: 1 / -1;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+.logo {
+  height: 100%;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  padding: 1em 2em;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: orange;
+  transition: 0.9s;
+}
+.banner {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 72px;
+}
+.banner p {
+  font-size: 22px;
+  text-align: center;
+  max-width: 40%;
+  padding: 50px 0;
+}
+.button {
+  background: #c49300;
+  color: white;
+  padding: 15px 50px;
+  
+}
+.button:hover {
+  background: #8c6900;
+  transition: 0.9s;
+}
+.hiddenbutton {
+  background: #c49300;
+  color: white;
+  padding: 1em;
+  display: none;
+}
+.hiddenbuttonPadding {
+  padding-top: 3em;
+}
+.hiddenbutton:hover {
+  background: #8c6900;
+  transition: 0.9s;
+}
+
+.clothes {
+  grid-column: 2 / -2;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.clothes p {
+  padding: 20px;
+  text-align: center;
+}
+.tiles {
+  grid-column: 2 / -2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 100px;
+}
+.item {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  overflow: hidden;
+}
+.item img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item_overlay {
+  background: rgba(0, 0, 0, 0.5);
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  z-index: 2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+.item:hover .item_img {
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+footer {
+  grid-column: 1 / -1;
+  height: 30vh;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  padding: 30px 0;
+}
+.social_contacts {
+  display: flex;
+  width: 10vw;
+  justify-content: space-around;
+}
+.social_contacts a:hover {
+  color: orange;
+  transition: 0.9s;
+}
+
+/* Css for timer */
+
+.countdown {
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.time {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.time span {
+  font-size: 2.5em;
+  display: block;
+}
+
+.smalltext {
+  padding-top: 0.5em;
+  font-size: 1em;
+}
+
+/* End of Css timer CSS */
