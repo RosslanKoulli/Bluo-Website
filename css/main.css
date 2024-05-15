@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +90,7 @@ nav {
   transition: 0.9s;
 }
 
-.clothes {
+.separation {
   grid-column: 2 / -2;
   height: 15vh;
   display: flex;
@@ -99,7 +100,7 @@ nav {
   padding-top: 150px;
   padding-bottom: 100px;
 }
-.clothes p {
+.separation p {
   padding: 20px;
   text-align: center;
 }
@@ -183,4 +184,7 @@ footer p {
   font-size: 1em;
 }
 
-/* End of Css timer CSS */
+.titlepadding{
+  padding: 2em;
+}
+
