@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +60,7 @@ nav {
 .banner h1 {
   font-size: 72px;
 }
+
 
 .separation {
   grid-column: 2 / -2;
@@ -122,4 +124,8 @@ footer p {
   padding: 30px 0;
 }
 
+
+.titlepadding{
+  padding: 2em;
+}
 
