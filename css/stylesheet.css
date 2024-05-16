@@ -461,10 +461,18 @@ footer p {
     align-items: center;
 }
 
-.description {
-    display: block;
-}
+
 
 .description > h2 {
     text-align: left;
 }
+
+.sticky-bottom {
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* Background color for the section */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+  }
