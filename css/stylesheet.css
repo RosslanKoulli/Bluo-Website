@@ -10,10 +10,6 @@
     text-decoration: none;
     color: white;
    }
-   .main-grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-   }
    .shop_header{
     background-image: url("");
    }
@@ -73,14 +69,6 @@
     text-align: center;
     max-width: 40%;
     padding: 50px 0;
-   }
-   .description {
-    grid-column: 2 / -2;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1em;
    }
    .contentInfo {
     grid-column: 2 / -2;
@@ -209,16 +197,9 @@
     height: 50vh;
     margin-top: 20px;
    }
-   footer {
-    grid-column: 1 / -1;
-    height: 30vh;
-    background: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
+   /*footer {
+
+   }*/
    footer p {
     padding: 30px 0;
    }
@@ -243,10 +224,6 @@ body {
 a {
  text-decoration: none;
  color: white;
-}
-.main-grid {
- display: grid;
- grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
 }
 .shop_header{
  background-image: url("../images/");
@@ -300,9 +277,12 @@ nav {
  align-items: center;
 }
 .banner h1 {
+    padding: 50px;
+    text-align: center;
  font-size: 72px;
 }
 .banner p {
+    
  font-size: 22px;
  text-align: center;
  max-width: 40%;
@@ -311,7 +291,7 @@ nav {
 .description {
  grid-column: 2 / -2;
  height: 30vh;
- display: flex;
+ display: block;
  flex-direction: column;
  justify-content: space-around;
  padding: 70px 0;
@@ -481,3 +461,10 @@ footer p {
     align-items: center;
 }
 
+.description {
+    display: block;
+}
+
+.description > h2 {
+    text-align: left;
+}
