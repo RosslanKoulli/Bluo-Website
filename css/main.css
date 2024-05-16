@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -59,35 +58,6 @@ nav {
 }
 .banner h1 {
   font-size: 72px;
-}
-.banner p {
-  font-size: 22px;
-  text-align: center;
-  max-width: 40%;
-  padding: 50px 0;
-}
-.button {
-  background: #c49300;
-  color: white;
-  padding: 15px 50px;
-  
-}
-.button:hover {
-  background: #8c6900;
-  transition: 0.9s;
-}
-.hiddenbutton {
-  background: #c49300;
-  color: white;
-  padding: 1em;
-  display: none;
-}
-.hiddenbuttonPadding {
-  padding-top: 3em;
-}
-.hiddenbutton:hover {
-  background: #8c6900;
-  transition: 0.9s;
 }
 
 .separation {
@@ -151,40 +121,5 @@ footer {
 footer p {
   padding: 30px 0;
 }
-.social_contacts {
-  display: flex;
-  width: 10vw;
-  justify-content: space-around;
-}
-.social_contacts a:hover {
-  color: orange;
-  transition: 0.9s;
-}
 
-/* Css for timer */
-
-.countdown {
-  padding: 2em;
-  display: flex;
-  justify-content: space-around;
-}
-
-.time {
-  text-align: center;
-  margin: 0.5em;
-}
-
-.time span {
-  font-size: 2.5em;
-  display: block;
-}
-
-.smalltext {
-  padding-top: 0.5em;
-  font-size: 1em;
-}
-
-.titlepadding{
-  padding: 2em;
-}
 

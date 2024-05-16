@@ -47,7 +47,7 @@ body {
 }
 
 .logo {
-  height: 50%;
+  height: 100%;
   
 }
 .menu ul {
@@ -66,6 +66,7 @@ body {
   color: orange;
   transition: 0.9s;
 }
+
 .description {
     display: block;
 }
